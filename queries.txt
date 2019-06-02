@@ -1,0 +1,51 @@
+select job_start.JobCd
+
+      --,job_start.JobStep
+
+      --,job_start.StartTSParm
+
+      --,job_start.EndTSParm
+
+      ,job_start.MsgTS as JobStartTS
+
+      --,job_end.MsgTS as JobEndTS
+
+      ,datediff (ss, job_start.MsgTS, job_end.MsgTS) as JobElapsedSec
+
+      ,job_end.MsgTxt
+
+      --,job_end.InsertedCnt
+
+     -- ,job_end.UpdatedCnt
+
+      --,job_end.DeletedCnt
+
+from (
+
+     select JobCd, JobStep, StartTSParm, EndTSParm, MsgTS
+
+     from cift.ETLRunLog
+
+     where JobStep = 'START'
+
+     ) job_start
+
+     inner join (
+
+                select JobCd, JobStep, StartTSParm, EndTSParm, MsgTS, MsgTxt, InsertedCnt, UpdatedCnt, DeletedCnt
+
+                from cift.ETLRunLog
+
+                where JobStep = 'COMPLETE'
+
+                ) job_end
+
+             on job_start.JobCd = job_end.JobCd
+
+            and job_start.StartTSParm = job_end.StartTSParm
+
+            and job_start.EndTSParm = job_end.EndTSParm
+
+--where job_start.JobCd = 'MBRSTG10'
+
+order by job_start.JobCd, job_start.MsgTS desc

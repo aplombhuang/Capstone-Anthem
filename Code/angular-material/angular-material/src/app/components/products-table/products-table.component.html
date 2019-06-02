@@ -1,0 +1,20 @@
+<div class="table-responsive">
+  <table class="table table-consended product-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Product </th>
+        <th>Visits</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of mostViewedProduct.productsData">
+        <td><img class="product-table-img" src={{product.imageUrl}} alt=""/></td>
+        <td>{{product.name}}</td>
+        <td>{{product.visit}}</td>
+        <td>{{product.price}}</td>
+        </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,92 @@
+<div class="row">
+  <div class="col-md-6">
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Simple Datepicker</h5>
+      </div>
+      <div class="panel-body">
+        <md-input-container>
+          <input mdInput [mdDatepicker]="picker" placeholder="Choose a date">
+          <button mdSuffix [mdDatepickerToggle]="picker"></button>
+        </md-input-container>
+        <md-datepicker #picker></md-datepicker>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Datepicker With Dialog</h5>
+      </div>
+      <div class="panel-body">
+        <md-input-container class="example-full-width">
+          <input mdInput [mdDatepicker]="pickerWithDialog" placeholder="Choose a date">
+          <button mdSuffix [mdDatepickerToggle]="pickerWithDialog"></button>
+        </md-input-container>
+        <md-datepicker touchUi="true" #pickerWithDialog></md-datepicker>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Fullwidth Datepicker</h5>
+      </div>
+      <div class="panel-body">
+        <md-input-container class="full-width-mat-input-container">
+          <input mdInput [mdDatepicker]="pickerOne" placeholder="Choose a date">
+          <button mdSuffix [mdDatepickerToggle]="pickerOne"></button>
+        </md-input-container>
+        <md-datepicker #pickerOne></md-datepicker>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Datepicker With Starting value</h5>
+      </div>
+      <div class="panel-body">
+        <md-input-container>
+          <input mdInput [mdDatepicker]="pickerWithStartDate" placeholder="Choose a date">
+          <button mdSuffix [mdDatepickerToggle]="pickerWithStartDate"></button>
+        </md-input-container>
+        <md-datepicker #pickerWithStartDate startView="year" [startAt]="startDate"></md-datepicker>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Datepicker With Min &amp; Max Value</h5>
+      </div>
+      <div class="panel-body">
+        <md-input-container class="example-full-width">
+          <input mdInput [min]="minDate" [max]="maxDate" [mdDatepicker]="pickerWithMinMax" placeholder="Choose a date">
+          <button mdSuffix [mdDatepickerToggle]="pickerWithMinMax"></button>
+        </md-input-container>
+        <md-datepicker #pickerWithMinMax></md-datepicker>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Datepicker With Day Disabled</h5>
+      </div>
+      <div class="panel-body">
+        <md-input-container class="example-full-width">
+          <input mdInput [mdDatepickerFilter]="myFilter" [mdDatepicker]="pickerWithDaysOff" placeholder="Choose a date">
+          <button mdSuffix [mdDatepickerToggle]="pickerWithDaysOff"></button>
+        </md-input-container>
+        <md-datepicker #pickerWithDaysOff></md-datepicker>
+      </div>
+    </div>
+  </div>
+</div>
+

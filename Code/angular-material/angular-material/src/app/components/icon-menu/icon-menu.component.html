@@ -1,0 +1,19 @@
+<div>
+  <button md-icon-button [mdMenuTriggerFor]="menu">
+    <md-icon>more_vert</md-icon>
+  </button>
+  <md-menu #menu="mdMenu">
+    <button md-menu-item>
+      <md-icon>settings</md-icon>
+      <span>Settings</span>
+    </button>
+    <button md-menu-item>
+      <md-icon>favorite</md-icon>
+      <span>Favorite</span>
+    </button>
+    <button md-menu-item disabled>
+      <md-icon>delete</md-icon>
+      <span>Delete</span>
+    </button>
+  </md-menu>
+</div>

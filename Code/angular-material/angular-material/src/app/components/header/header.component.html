@@ -1,0 +1,47 @@
+<header class="an-header">
+  <md-toolbar color="primary">
+    <a class="brand" href="#"><img src={{logo}} alt="logo"/></a>
+    <div class="toggle-menu">
+      <md-icon (click)="toggleSidebar()">dehaze</md-icon>
+    </div>
+
+    <span class="example-spacer"></span>
+
+    <button md-mini-fab (click)="showNotification = !showNotification" >
+      <md-icon>notifications</md-icon>
+    </button>
+
+    <md-card class="example-card" [mdMenuTriggerFor]="appMenu">
+      <div md-card-avatar class="example-header-image" [ngStyle]="{ 'background-image': 'url(' + image + ')'}"></div>
+    </md-card>
+  </md-toolbar>
+
+  <div [ngClass]="notificationClasses()">
+    <app-notifications></app-notifications>
+  </div>
+
+  <md-menu #appMenu="mdMenu">
+    <button md-menu-item>
+      <md-icon>settings</md-icon>
+      <span>Account Settings</span>
+    </button>
+    <button md-menu-item>
+      <md-icon>dashboard</md-icon>
+      <span>My Profile</span>
+    </button>
+    <button md-menu-item>
+      <md-icon>verified_user</md-icon>
+      <span>User Priviledges</span>
+    </button>
+
+    <button md-menu-item>
+      <md-icon>timeline</md-icon>
+      <span>Monthly Statistics</span>
+    </button>
+    <button md-menu-item>
+      <md-icon>exit_to_app</md-icon>
+      <span>Log Out</span>
+    </button>
+  </md-menu>
+
+</header>

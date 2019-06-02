@@ -1,0 +1,136 @@
+<div class="readmin-panel">
+  <div class="panel-heading">
+    <h5>Inline Form</h5>
+  </div>
+  <div class="panel-body">
+    <form action="#" class="form-inline">
+      <div class="row">
+        <div class="col-md-5">
+          <md-input-container class="full-width">
+            <input mdInput placeholder="User name">
+          </md-input-container>
+        </div>
+        <div class="col-md-5">
+          <md-input-container class="full-width">
+            <input mdInput type="password" placeholder="Password">
+          </md-input-container>
+        </div>
+        <div class="col-md-2">
+          <button md-raised-button color="primary" class="text-uppercase full-width">Login</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Form Full Width</h5>
+      </div>
+      <div class="panel-body">
+        <form action="#">
+          <md-input-container class="full-width">
+            <input mdInput placeholder="User name">
+          </md-input-container>
+
+          <md-input-container class="full-width">
+            <input mdInput type="password" placeholder="Password">
+          </md-input-container>
+
+          <button md-raised-button color="primary" class="text-uppercase full-width">Login</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-md-6">
+
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Form With Side label</h5>
+      </div>
+      <div class="panel-body">
+        <form action="#" class="with-sidelabel">
+          <div class="row">
+            <div class="col-md-3">
+              <label>User name</label>
+            </div>
+            <div class="col-md-9">
+              <md-input-container class="full-width">
+                <input mdInput>
+              </md-input-container>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <label>Password</label>
+            </div>
+            <div class="col-md-9">
+              <md-input-container class="full-width">
+                <input mdInput type="password">
+              </md-input-container>
+            </div>
+          </div>
+
+          <button md-raised-button color="primary" class="text-uppercase full-width">Login</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="readmin-panel">
+  <div class="panel-heading">
+    <h5>Large Form</h5>
+  </div>
+  <div class="panel-body">
+    <form class="full-width">
+      <md-input-container class="example-full-width">
+        <input mdInput placeholder="Company (disabled)" disabled value="Google">
+      </md-input-container>
+
+      <table class="example-full-width" cellspacing="0"><tr>
+          <td><md-input-container class="example-full-width">
+              <input mdInput placeholder="First name">
+          </md-input-container></td>
+          <td><md-input-container class="example-full-width">
+              <input mdInput placeholder="Long Last Name That Will Be Truncated">
+          </md-input-container></td>
+      </tr></table>
+
+      <p>
+        <md-input-container class="example-full-width">
+          <textarea mdInput placeholder="Address">1600 Amphitheatre Pkwy</textarea>
+        </md-input-container>
+        <md-input-container class="example-full-width">
+          <textarea mdInput placeholder="Address 2"></textarea>
+        </md-input-container>
+      </p>
+
+      <table class="example-full-width" cellspacing="0"><tr>
+          <td><md-input-container class="example-full-width">
+              <input mdInput placeholder="City">
+          </md-input-container></td>
+          <td><md-input-container class="example-full-width">
+              <input mdInput placeholder="State">
+          </md-input-container></td>
+          <td><md-input-container class="example-full-width">
+              <input mdInput #postalCode maxlength="5" placeholder="Postal Code" value="94043">
+              <md-hint align="end">{{postalCode.value.length}} / 5</md-hint>
+          </md-input-container></td>
+      </tr></table>
+
+
+      <button md-raised-button color="primary" class="text-uppercase">Login</button>
+    </form>
+
+
+  </div>
+</div>

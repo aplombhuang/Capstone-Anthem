@@ -1,0 +1,13 @@
+<ngx-charts-gauge
+  [view]="[parentContainerWidth(), 300]"
+  [scheme]="colorScheme"
+  [results]="chartData.single"
+  [min]="0"
+  [max]="100"
+  [angleSpan]="240"
+  [startAngle]="-120"
+  [units]="'alerts'"
+  [bigSegments]="10"
+  [smallSegments]="5"
+  >
+</ngx-charts-gauge>

@@ -1,0 +1,13 @@
+.card-bg-primary {
+  background: #3f51b5;
+  &.accent {
+    background: #ff4081;
+  }
+  &.warn {
+    background: #f44336;
+  }
+
+  p {
+    color: #fff;
+  }
+}

@@ -1,0 +1,17 @@
+.panel-body button,
+.panel-body a {
+  margin-bottom: 20px;
+}
+
+.with-icon {
+  .material-icons {
+    padding-right: 7px;
+    display: inline;
+  }
+  &.right {
+    .material-icons {
+      padding-right: 0;
+      padding-left: 7px;
+    }
+  }
+}

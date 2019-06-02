@@ -1,0 +1,18 @@
+<div>
+  <div class="re-page-banner" style="background: url('../../../../assets/img/banner.jpg') center center no-repeat; background-size: cover;">
+    <div class="overlay"></div>
+    <h1>Our Services</h1>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-sm-6" *ngFor="let service of data.services">
+      <div class="an-service-single">
+        <i class={{service.icon}}></i>
+        <h4>{{service.name}}</h4>
+        <p>{{service.text}}</p>
+      </div>
+    </div>
+  </div>
+
+
+</div>

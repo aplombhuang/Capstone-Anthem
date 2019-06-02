@@ -1,0 +1,140 @@
+<div class="readmin-panel">
+  <div class="panel-heading">
+    <h5>Simple Slider</h5>
+  </div>
+  <div class="panel-body">
+    <md-slider
+        class="example-margin"
+        [disabled]="disabled"
+        [invert]="invert"
+        [max]="max"
+        [min]="min"
+        [step]="step"
+        [thumb-label]="thumbLabel"
+        [tick-interval]="tickInterval"
+        [value]="value"
+        [vertical]="vertical">
+    </md-slider>
+
+    <md-slider
+      class="example-margin"
+      [disabled]="disabled"
+      [invert]="invert"
+      [max]="max"
+      [min]="min"
+      [step]="step"
+      [thumb-label]="thumbLabel"
+      [tick-interval]="tickInterval"
+      [value]="value"
+      [vertical]="vertical"
+      >
+    </md-slider>
+
+    <md-slider
+      class="example-margin"
+      [disabled]="true"
+      [invert]="invert"
+      [max]="max"
+      [min]="min"
+      [step]="step"
+      [thumb-label]="thumbLabel"
+      [tick-interval]="tickInterval"
+      [value]="50"
+      [vertical]="vertical"
+      [color] = "red"
+      >
+    </md-slider>
+
+  </div>
+</div>
+
+
+<div class="readmin-panel">
+  <div class="panel-heading">
+    <h5>Slider With Thumblabel</h5>
+  </div>
+  <div class="panel-body">
+    <md-slider
+      class="example-margin"
+      [disabled]="disabled"
+      [invert]="invert"
+      [max]="max"
+      [min]="min"
+      [step]="step"
+      [thumb-label]="true"
+      [tick-interval]="tickInterval"
+      [value]="value"
+      [vertical]="vertical">
+    </md-slider>
+    <p>{{ displayValue }}</p>
+
+  </div>
+</div>
+
+<div class="readmin-panel">
+  <div class="panel-heading">
+    <h5>Alternate Slider</h5>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-3">
+        <md-slider
+          class="example-margin"
+          [disabled]="disabled"
+          [invert]="invert"
+          [max]="max"
+          [min]="min"
+          [step]="step"
+          [thumb-label]="true"
+          [tick-interval]="tickInterval"
+          [value]="value"
+          [vertical]="true">
+        </md-slider>
+      </div>
+      <div class="col-md-3">
+        <md-slider
+          class="example-margin"
+          [disabled]="disabled"
+          [invert]="true"
+          [max]="max"
+          [min]="min"
+          [step]="step"
+          [thumb-label]="true"
+          [tick-interval]="tickInterval"
+          [value]="value"
+          [vertical]="true">
+        </md-slider>
+      </div>
+
+      <div class="col-md-3">
+        <md-slider
+          class="example-margin"
+          [disabled]="disabled"
+          [invert]="invert"
+          [max]="max"
+          [min]="min"
+          [step]="step"
+          [thumb-label]="true"
+          [tick-interval]="tickInterval"
+          [value]="value"
+          [vertical]="vertical">
+        </md-slider>
+      </div>
+
+      <div class="col-md-3">
+        <md-slider
+          class="example-margin"
+          [disabled]="disabled"
+          [invert]="true"
+          [max]="max"
+          [min]="min"
+          [step]="step"
+          [thumb-label]="true"
+          [tick-interval]="tickInterval"
+          [value]="value"
+          [vertical]="vertical">
+        </md-slider>
+      </div>
+    </div>
+  </div>
+</div>

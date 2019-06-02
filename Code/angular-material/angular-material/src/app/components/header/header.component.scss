@@ -1,0 +1,28 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+
+.example-sidenav-content {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+
+.example-header-image {
+  background-size: cover;
+}
+
+.example-card {
+  padding: 0;
+  background: transparent;
+  box-shadow: none !important;
+  margin-left: 15px;
+}

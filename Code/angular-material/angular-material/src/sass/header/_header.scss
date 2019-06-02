@@ -1,0 +1,41 @@
+.an-header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 99;
+
+  .toggle-menu {
+    cursor: pointer;
+    &:hover {
+      .material-icons {
+        background: rgba(0,0,0,.4);
+      }
+    }
+
+    .material-icons {
+      background: rgba(0,0,0,.3);
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      text-align: center;
+      @include transition();
+    }
+  }
+
+  .brand {
+    position: relative;
+    color: $font-color-white;
+    font-size: $font-size-h4;
+    margin-right: $margin-large * 3 - 5;
+    @media (max-width: 520px) {
+
+      margin-right: $margin-large + 10;
+    }
+    img {
+      width: 110px;
+    }
+  }
+}
+

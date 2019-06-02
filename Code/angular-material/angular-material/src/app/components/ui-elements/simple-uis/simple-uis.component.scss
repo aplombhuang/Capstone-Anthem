@@ -1,0 +1,41 @@
+.mat-mini-fab.mat-list-icon {
+  margin: 0;
+  font-size: 14px !important;
+  cursor: auto;
+
+  .mat-icon {
+    margin: 0;
+    padding: 0;
+  }
+  .letter {
+    font-size: 20px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+.mat-divider {
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+
+.example-container {
+  width: 100%;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+}

@@ -1,0 +1,126 @@
+.an-sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  left: 0;
+  background: #1b202a;
+  z-index: 10;
+  padding-top: $padding-base * 6;
+  padding-bottom: $padding-base * 5;
+  overflow: auto;
+  @include an-box-shadow();
+  @include transition();
+
+  &.toggle {
+    @include transition();
+  }
+
+  &.toggle {
+    left: -250px;
+  }
+
+
+  .menudivider {
+    padding: $padding-base 0;
+  }
+
+  .sidebar-nav {
+    position: relative;
+    width: 100%;
+
+    ul {
+      @include list-unstyled();
+      margin: 0;
+
+      li {
+        position: relative;
+
+        &.divider {
+          margin: $padding-base 0;
+          height: 1px;
+          background: rgba($font-color-white, .2);
+
+        }
+
+        &.has-child {
+          > a {
+            &.active {
+              i {
+                &:before {
+                  content: "\f068";
+                }
+              }
+            }
+            i {
+              position: absolute;
+              right: 15px;
+              top: 18px;
+              font-size: 12px;
+
+            }
+          }
+        }
+
+        a {
+          padding: $padding-small $padding-base;
+          padding-top: $padding-small - 4;
+          color: $font-color-white;
+          opacity: .8;
+          display: block;
+
+          .mat-icon {
+            position: relative;
+            top: 6px;
+            margin-right: $padding-base;
+          }
+
+          &:hover {
+            background: rgba(0,0,0, .2);
+          }
+        }
+
+        li {
+          a {
+            padding: $padding-small - 3 $padding-base;
+            padding-left: $padding-large;
+            i {
+              position: relative;
+              top: -1px;
+              padding-right: $padding-base;
+            }
+          }
+
+          .child-menu {
+
+            a {
+              padding-left: $padding-large + 10;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.level-two {
+  > a {
+    &.active {
+      .fa-plus {
+        &:before {
+          content: "\f068";
+        }
+      }
+    }
+    .fa-plus {
+      position: absolute !important;
+      right: 10px !important;
+      top: 13px !important;
+      font-size: 12px;
+    }
+  }
+}
+
+
+.sidebar-initial-color {
+  background-color: #1b202a;
+}

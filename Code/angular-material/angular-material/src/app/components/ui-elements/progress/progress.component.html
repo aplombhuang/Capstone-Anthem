@@ -1,0 +1,137 @@
+<div class="row">
+  <div class="col-md-6">
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Progress spinner</h5>
+      </div>
+      <div class="panel-body">
+        <section class="example-section">
+          <md-radio-group [(ngModel)]="color">
+            <md-radio-button class="example-margin" value="primary">
+              Primary
+            </md-radio-button>
+            <md-radio-button class="example-margin" value="accent">
+              Accent
+            </md-radio-button>
+            <md-radio-button class="example-margin" value="warn">
+              Warn
+            </md-radio-button>
+          </md-radio-group>
+        </section>
+
+
+        <md-progress-spinner
+          class="example-margin"
+          [color]="color"
+          [mode]="mode"
+          [value]="value">
+        </md-progress-spinner>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Progress spinner Determinate</h5>
+      </div>
+      <div class="panel-body">
+        <section class="example-section">
+          <md-radio-group [(ngModel)]="modeOne">
+            <md-radio-button class="example-margin" value="determinate">
+              Determinate
+            </md-radio-button>
+            <md-radio-button class="example-margin" value="indeterminate">
+              Indeterminate
+            </md-radio-button>
+
+          </md-radio-group>
+        </section>
+
+
+        <md-progress-spinner
+          class="example-margin"
+          [color]="primary"
+          [mode]="modeOne"
+          [value]="value">
+        </md-progress-spinner>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12">
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Basic Progressbar</h5>
+      </div>
+      <div class="panel-body">
+        <md-progress-bar mode="indeterminate"></md-progress-bar>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12">
+    <div class="readmin-panel">
+      <div class="panel-heading">
+        <h5>Controlled Progressbar</h5>
+      </div>
+      <div class="panel-body">
+        <section class="example-section">
+          <label class="example-margin">Color:</label>
+          <md-radio-group [(ngModel)]="colorBar">
+            <md-radio-button class="example-margin" value="primary">
+              Primary
+            </md-radio-button>
+            <md-radio-button class="example-margin" value="accent">
+              Accent
+            </md-radio-button>
+            <md-radio-button class="example-margin" value="warn">
+              Warn
+            </md-radio-button>
+          </md-radio-group>
+        </section>
+
+        <section class="example-section">
+          <label class="example-margin">Mode:</label>
+          <md-radio-group [(ngModel)]="modeBar">
+            <md-radio-button class="example-margin" value="determinate">
+              Determinate
+            </md-radio-button>
+            <md-radio-button class="example-margin" value="indeterminate">
+              Indeterminate
+            </md-radio-button>
+            <md-radio-button class="example-margin" value="buffer">
+              Buffer
+            </md-radio-button>
+            <md-radio-button class="example-margin" value="query">
+              Query
+            </md-radio-button>
+          </md-radio-group>
+        </section>
+
+        <section class="example-section" *ngIf="modeBar == 'determinate' || modeBar == 'buffer'">
+          <label class="example-margin">Progress:</label>
+          <md-slider class="example-margin" [(ngModel)]="value"></md-slider>
+        </section>
+        <section class="example-section" *ngIf="modeBar == 'buffer'">
+          <label class="example-margin">Buffer:</label>
+          <md-slider class="example-margin" [(ngModel)]="bufferValue"></md-slider>
+        </section>
+
+        <section class="example-section large-margin">
+          <md-progress-bar
+            class="example-margin"
+            [color]="colorBar"
+            [mode]="modeBar"
+            [value]="value"
+            [bufferValue]="bufferValue">
+          </md-progress-bar>
+        </section>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+13:25:48	 From  APLOMB HUANG : ProStatistics, DatActuarial, StatBooks, ProcDoc.AI, ProcGator, DataHound, DataDash_AI, Clustural, proce_db, Anthem-AI-Dashboard, Anthem-Jobs-runtime, Anthem-tornado-AI 
+13:28:09	 From  APLOMB HUANG : 3
+13:28:13	 From  Brendan de Wet : 3
+13:28:56	 From  Tuhinur Jaman : 3
+13:29:34	 From  Brendan de Wet : 2
+13:29:35	 From  Jesse Gordon : prostatistics
+13:29:56	 From  APLOMB HUANG : 4
+13:31:00	 From  Tuhinur Jaman : 4
+13:31:12	 From  Jesse Gordon : datactuarial
+13:31:32	 From  Brendan de Wet : 3
+13:32:07	 From  APLOMB HUANG : 2
+13:32:14	 From  Tuhinur Jaman : 3
+13:32:27	 From  Jesse Gordon : statbooks
+13:32:40	 From  APLOMB HUANG : 3
+13:32:47	 From  Brendan de Wet : 3
+13:33:11	 From  Tuhinur Jaman : 3
+13:33:23	 From  Jesse Gordon : procdoc.ai
+13:33:35	 From  Brendan de Wet : 2
+13:33:40	 From  APLOMB HUANG : 2
+13:33:44	 From  Tuhinur Jaman : 2
+13:33:47	 From  Jesse Gordon : procgator
+13:34:44	 From  Brendan de Wet : 2
+13:34:45	 From  APLOMB HUANG : 2
+13:34:48	 From  Tuhinur Jaman : 2
+13:34:51	 From  Jesse Gordon : datahound
+13:35:41	 From  Brendan de Wet : 3
+13:35:42	 From  APLOMB HUANG : 4
+13:35:44	 From  Tuhinur Jaman : 3
+13:35:50	 From  Jesse Gordon : datadash_AI
+13:36:16	 From  Brendan de Wet : 4
+13:36:16	 From  APLOMB HUANG : 3
+13:37:37	 From  Tuhinur Jaman : clustural
+13:37:50	 From  Tuhinur Jaman : 5
+13:37:59	 From  Jesse Gordon : clustural
+13:38:35	 From  APLOMB HUANG : 2
+13:38:36	 From  Brendan de Wet : 3
+13:38:40	 From  Tuhinur Jaman : 3
+13:38:41	 From  Jesse Gordon : proce_db
+13:39:07	 From  Brendan de Wet : 2
+13:39:09	 From  APLOMB HUANG : 2
+13:39:20	 From  Tuhinur Jaman : 4
+13:39:21	 From  Jesse Gordon : anthem-ai-dashboard
+13:39:41	 From  APLOMB HUANG : 2
+13:39:41	 From  Brendan de Wet : 1
+13:39:48	 From  Tuhinur Jaman : 2
+13:39:50	 From  Jesse Gordon : anthem-jobs-runtime
+13:40:12	 From  APLOMB HUANG : 3
+13:40:12	 From  Brendan de Wet : 2
+13:40:13	 From  Tuhinur Jaman : 3
+13:40:16	 From  Jesse Gordon : anthem-tornado-ai
+13:42:38	 From  Jesse Gordon : DatActuarial
+13:43:22	 From  APLOMB HUANG : 4
+13:43:22	 From  Brendan de Wet : 4
+13:43:24	 From  Tuhinur Jaman : 4
+13:43:38	 From  Jesse Gordon : DataDash_AI
+13:43:39	 From  APLOMB HUANG : 3
+13:43:43	 From  Brendan de Wet : 4
+13:43:43	 From  Tuhinur Jaman : 3
+13:43:52	 From  Tuhinur Jaman : 3
+13:43:56	 From  Jesse Gordon : Clustural
+13:43:59	 From  Brendan de Wet : 5
+13:43:59	 From  APLOMB HUANG : 4
+13:44:07	 From  Tuhinur Jaman : 4
+13:45:13	 From  Brendan de Wet : 5
+13:45:13	 From  APLOMB HUANG : 5
+13:45:14	 From  Tuhinur Jaman : 5

@@ -1,0 +1,85 @@
+import { HomeComponent } from '../pages/home/home.component';
+import { EcommerceComponent } from '../pages/ecommerce/ecommerce.component';
+import { ProductsComponent } from '../pages/products/products.component';
+import { OrderReviewPageComponent } from '../pages/order-review-page/order-review-page.component';
+import { ButtonsPageComponent } from '../pages/buttons-page/buttons-page.component';
+import { AppBarPageComponent } from '../pages/app-bar-page/app-bar-page.component';
+import { SimpleUiPageComponent } from '../pages/simple-ui-page/simple-ui-page.component';
+import { CardPageComponent } from '../pages/card-page/card-page.component';
+import { SliderPageComponent } from '../pages/slider-page/slider-page.component';
+import { DatePickerPageComponent } from '../pages/date-picker-page/date-picker-page.component';
+import { TimePickerPageComponent } from '../pages/time-picker-page/time-picker-page.component';
+import { DialogPageComponent } from '../pages/dialog-page/dialog-page.component';
+import { TabPageComponent } from '../pages/tab-page/tab-page.component';
+import { ProgressPageComponent } from '../pages/progress-page/progress-page.component';
+import { ListPageComponent } from '../pages/list-page/list-page.component';
+import { MenuPageComponent } from '../pages/menu-page/menu-page.component';
+import { GridListPageComponent } from '../pages/grid-list-page/grid-list-page.component';
+import { GridPageComponent } from '../pages/grid-page/grid-page.component';
+import { BasicFormPageComponent } from '../pages/basic-form-page/basic-form-page.component';
+import { SwitchPageComponent } from '../pages/switch-page/switch-page.component';
+import { FormLayoutPageComponent } from '../pages/form-layout-page/form-layout-page.component';
+import { ChartBarPageComponent } from '../pages/chart-bar-page/chart-bar-page.component';
+import { ChartLinePageComponent } from '../pages/chart-line-page/chart-line-page.component';
+import { ChartAreaPageComponent } from '../pages/chart-area-page/chart-area-page.component';
+import { ChartOtherPageComponent } from '../pages/chart-other-page/chart-other-page.component';
+import { TableBootstrapPageComponent } from '../pages/table-bootstrap-page/table-bootstrap-page.component';
+import { TableMaterialPageComponent } from '../pages/table-material-page/table-material-page.component';
+import { MapPageComponent } from '../pages/map-page/map-page.component';
+import { AboutPageComponent } from '../pages/about-page/about-page.component';
+import { ServicePageComponent } from '../pages/service-page/service-page.component';
+import { ContactPageComponent } from '../pages/contact-page/contact-page.component';
+import { BlogPageComponent } from '../pages/blog-page/blog-page.component';
+import { PricingTablePageComponent } from '../pages/pricing-table-page/pricing-table-page.component';
+import { FaqPageComponent } from '../pages/faq-page/faq-page.component';
+import { LoginPageComponent } from '../pages/login-page/login-page.component';
+import { RegisterPageComponent } from '../pages/register-page/register-page.component';
+import { ForgotPassPageComponent } from '../pages/forgot-pass-page/forgot-pass-page.component';
+import { ConfirmMailPageComponent } from '../pages/confirm-mail-page/confirm-mail-page.component';
+import { ErrorPageComponent } from '../pages/error-page/error-page.component';
+import { LayoutDefaultPageComponent } from '../pages/layout-default-page/layout-default-page.component';
+import { LayoutBannerPageComponent } from '../pages/layout-banner-page/layout-banner-page.component';
+
+export const routesPath = [
+  { path: '', component: HomeComponent },
+  { path: 'e-commerce/dashboard', component: EcommerceComponent },
+  { path: 'e-commerce/products', component: ProductsComponent },
+  { path: 'e-commerce/order-review', component: OrderReviewPageComponent },
+  { path: 'ui/buttons', component: ButtonsPageComponent },
+  { path: 'ui/app-bars', component: AppBarPageComponent },
+  { path: 'ui/simple-uis', component: SimpleUiPageComponent },
+  { path: 'ui/cards', component: CardPageComponent },
+  { path: 'ui/sliders', component: SliderPageComponent },
+  { path: 'ui/datepickers', component: DatePickerPageComponent },
+  { path: 'ui/timepickers', component: TimePickerPageComponent  },
+  { path: 'ui/dialogs', component: DialogPageComponent },
+  { path: 'ui/tabs', component: TabPageComponent },
+  { path: 'ui/progress', component: ProgressPageComponent },
+  { path: 'ui/lists', component: ListPageComponent },
+  { path: 'ui/menus', component: MenuPageComponent },
+  { path: 'ui/grid-list', component: GridListPageComponent },
+  { path: 'ui/grids', component: GridPageComponent },
+  { path: 'form/basic', component: BasicFormPageComponent },
+  { path: 'form/switches', component: SwitchPageComponent },
+  { path: 'form/layouts', component: FormLayoutPageComponent },
+  { path: 'chart/bar', component: ChartBarPageComponent },
+  { path: 'chart/line', component: ChartLinePageComponent },
+  { path: 'chart/area', component: ChartAreaPageComponent },
+  { path: 'chart/others', component: ChartOtherPageComponent },
+  { path: 'table/bootstrap', component: TableBootstrapPageComponent },
+  { path: 'table/material', component: TableMaterialPageComponent },
+  { path: 'page/about', component: AboutPageComponent },
+  { path: 'page/service', component: ServicePageComponent },
+  { path: 'page/contact', component: ContactPageComponent },
+  { path: 'page/blog', component: BlogPageComponent },
+  { path: 'page/pricing-table', component: PricingTablePageComponent },
+  { path: 'page/faq', component: FaqPageComponent },
+  { path: 'google-maps', component: MapPageComponent },
+  { path: 'other-page/login', component: LoginPageComponent },
+  { path: 'other-page/register', component: RegisterPageComponent },
+  { path: 'other-page/forgot-pass', component: ForgotPassPageComponent },
+  { path: 'other-page/confirm-mail', component: ConfirmMailPageComponent },
+  { path: 'other-page/error', component: ErrorPageComponent },
+  { path: 'layout/default', component: LayoutDefaultPageComponent },
+  { path: 'layout/banner', component: LayoutBannerPageComponent },
+];

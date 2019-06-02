@@ -1,0 +1,12 @@
+<!--The whole content below can be removed with the new code.-->
+<div class="main-wrapper">
+  <app-header></app-header>
+  <div class="an-body-content">
+    <app-sidebar></app-sidebar>
+    <div [ngClass]="pageContentClasses()">
+      <router-outlet></router-outlet>
+      <app-footer></app-footer>
+    </div>
+  </div>
+</div>
+

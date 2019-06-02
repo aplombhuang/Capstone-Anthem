@@ -1,0 +1,12 @@
+aws dns when you enter putty
+
+ec2-54-152-75-204.compute-1.amazonaws.com
+
+and key is attached
+
+
+
+the other aws instance need touse CDeployKey
+
+passphase is bitnami
+

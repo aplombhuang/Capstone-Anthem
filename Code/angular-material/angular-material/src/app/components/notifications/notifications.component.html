@@ -1,0 +1,18 @@
+<div class="an-notifications">
+  <h6>Latest Activities</h6>
+  <div *ngFor="let notification of data.notificationData" class="notification-single">
+    <div class="avatar" *ngIf="notification.avatar !== '' && notification.avatar " >
+      <img src={{notification.avatar}} alt="">
+    </div>
+
+    <div class="avatar avatar-icon" *ngIf="notification.avatar == '' "><i class="fa fa-user"></i></div>
+
+    <div [ngClass]="notificationType(notification)" *ngIf="notification.icon"><i class={{notification.icon}}></i></div>
+
+    <p class="details">
+      <a href="#" *ngIf="notification.name">{{notification.name}}</a>
+      <span>{{notification.detail}}</span>
+    </p>
+    <p class="time">{{notification.time}}</p>
+  </div>
+</div>

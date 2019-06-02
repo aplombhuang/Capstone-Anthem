@@ -1,0 +1,49 @@
+<div class="ng-view" autoscroll>
+  <app-icon-box-alter></app-icon-box-alter>
+
+  <div class="row">
+    <div class="col-md-7">
+      <div class="readmin-panel righticonmenu">
+        <div class="panel-heading">
+          <h5>Total Earns</h5>
+          <app-icon-menu></app-icon-menu>
+        </div>
+        <div class="panel-body">
+          <app-products-table></app-products-table>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="readmin-panel righticonmenu">
+        <div class="panel-heading">
+          <h5>Total Revenues</h5>
+          <app-icon-menu></app-icon-menu>
+        </div>
+        <div class="panel-body with-chart">
+          <app-area-chart></app-area-chart>
+        </div>
+      </div>
+
+      <div class="iconbox-single">
+        <div class="box-title">
+          <div class="circle-icon" style="background: #3f51b5;">
+            <md-icon>supervisor_account</md-icon>
+          </div>
+          <div>
+            <h5>2, 324</h5>
+            <p>Visitors</p>
+          </div>
+        </div>
+        <div class="chart">
+          <app-tiny-bar-chart>
+          </app-tiny-bar-chart>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <app-user-table></app-user-table>
+    </div>
+  </div>
+</div>
+
